@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>綠野香醇 - 公司介紹</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-amber-50 text-gray-800">
+    <!-- 導覽列 -->
+    <nav class="bg-white shadow-md p-4 flex justify-between items-center max-w-4xl mx-auto rounded-b-lg">
+        <h1 class="text-xl font-bold text-green-700">綠野香醇</h1>
+        <div class="space-x-6">
+            <a href="index.html" class="hover:text-green-600">首頁</a>
+            <a href="about.html" class="text-green-600 font-semibold">公司介紹</a>
+            <a href="contact.html" class="hover:text-green-600">聯絡我們</a>
+        </div>
+    </nav>
+
+    <!-- 主內容 -->
+    <main class="max-w-4xl mx-auto p-6 mt-10 bg-white rounded-xl shadow-md">
+        <h2 class="text-2xl font-bold text-green-800 mb-4">關於我們</h2>
+        <p class="text-gray-700 leading-relaxed mb-4">
+            「綠野香醇」成立於2026年，秉持著對茶飲的熱情與堅持，我們走訪各大茶園，只為挑選最優質的茶葉。
+            每一杯手作茶飲，都包含了我們對品質的嚴格把關與對顧客的用心。
+        </p>
+        <p class="text-gray-700 leading-relaxed">
+            我們希望透過天然、健康的飲品，在忙碌的日常生活中，為每位顧客帶來片刻的放鬆與美好時光。
+        </p>
+    </main>
+</body>
+</html>
