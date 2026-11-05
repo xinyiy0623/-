@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>綠野香醇 - 聯絡我們</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-amber-50 text-gray-800">
+    <!-- 導覽列 -->
+    <nav class="bg-white shadow-md p-4 flex justify-between items-center max-w-4xl mx-auto rounded-b-lg">
+        <h1 class="text-xl font-bold text-green-700">綠野香醇</h1>
+        <div class="space-x-6">
+            <a href="index.html" class="hover:text-green-600">首頁</a>
+            <a href="about.html" class="hover:text-green-600">公司介紹</a>
+            <a href="contact.html" class="text-green-600 font-semibold">聯絡我們</a>
+        </div>
+    </nav>
+
+    <!-- 表單內容 -->
+    <main class="max-w-xl mx-auto p-8 mt-10 bg-white rounded-xl shadow-md">
+        <h2 class="text-2xl font-bold text-green-800 mb-6 text-center">聯絡我們</h2>
+        
+        <!-- 請將 action 裡的網址換成你的 Formspree ID -->
+        <form action="https://formspree.io/f/xjyyzklp" method="POST" class="space-y-4">
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">姓名</label>
+                <input type="text" name="name" required class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">電話</label>
+                <input type="tel" name="phone" required class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">EMAIL</label>
+                <input type="email" name="email" required class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">聯絡內容</label>
+                <textarea name="message" rows="4" required class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"></textarea>
+            </div>
+            <button type="submit" class="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700 transition">送出表單</button>
+        </form>
+    </main>
+</body>
+</html>
