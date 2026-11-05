@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>綠野香醇 - 首頁</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-amber-50 text-gray-800">
+    <!-- 導覽列 -->
+    <nav class="bg-white shadow-md p-4 flex justify-between items-center max-w-4xl mx-auto rounded-b-lg">
+        <h1 class="text-xl font-bold text-green-700">綠野香醇</h1>
+        <div class="space-x-6">
+            <a href="index.html" class="text-green-600 font-semibold">首頁</a>
+            <a href="about.html" class="hover:text-green-600">公司介紹</a>
+            <a href="contact.html" class="hover:text-green-600">聯絡我們</a>
+        </div>
+    </nav>
+
+    <!-- 主內容 -->
+    <main class="max-w-4xl mx-auto p-6 text-center mt-10">
+        <h2 class="text-3xl font-bold text-green-800 mb-4">用心手作每一杯好茶，陪伴您的美好日常</h2>
+        <p class="text-gray-600 mb-8">嚴選優質茶葉與新鮮天然食材，帶給您最純粹的美味。</p>
+        <div class="bg-white p-6 rounded-xl shadow-md inline-block">
+            <span class="text-green-700 font-medium">✨人氣推薦：香醇熟成紅茶、手採高山青茶、小農鮮奶茶、黃金珍珠奶茶、鮮榨柳橙綠</span>
+        </div>
+    </main>
+</body>
+</html>
